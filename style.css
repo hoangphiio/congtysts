@@ -1,0 +1,29 @@
+.container{
+    width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.img img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .container{
+        width: 100%;
+        display: unset;
+    }
+
+    .img{
+        margin-bottom: 8px;
+    }
+}
